@@ -1,0 +1,22 @@
+# vLLM and model weights
+infra/
+*.sif
+
+# Environment variables
+.env
+
+# Relevant Python files
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+
+# Data (vector database and papers)
+data/vector_db/
+data/raw/*.pdf
+data/raw/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
